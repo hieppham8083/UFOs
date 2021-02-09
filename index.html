@@ -1,26 +1,32 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<link
+<head>
+  <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
-    />
-
-<link rel="stylesheet" href="static/css/style.css">
-
-  <body>
+  />
+    <style>
+      li {color:darkblue;}
+      h1 {text-align: center;}
+      button {color:darkblue;}
+      button {button-align: center;}
+    </style>
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+  <body class="bg-dark">
       <div class="wrapper">
-      </div>
 
-      <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="index.html">UFO Sightings</a>
-      </nav>
-
-      <div class="jumbotron">
-          <h1>The Truth Is Out There</h1>
       </div>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+          <a class="navbar-brand" href="index.html">UFO Sightings</a>
+        </nav>
+
+       <div class="jumbotron">
+      <h1 class="display-4">The Truth Is Out There</h1>
+    </div>
 
       <div class="container-fluid">
         <div class="row">
@@ -62,9 +68,13 @@
                   <th>Comments</th>
                 </tr>
               </thead>
-            </table>
+              <tbody></tbody>
+            </table> 
           </div>
         </div>
       </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+  <script src="static/js/data.js"></script>
+  <script src="static/js/app.js"></script>
   </body>
 </html>
