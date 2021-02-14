@@ -3,7 +3,7 @@
 
 ## Challenge
 - Edit  [app.js](../main/app.js) to add filters and write an if-else statement.
-- Building an HTML file [index.html](../main/index.html) including  a CSS file [style.css](../main/static/css/style.css)
+- Building an HTML file [index.html](../main/index.html) including  a CSS file [style.css](../main/static/css/style.css) and data source [data.js](../main/static/js/data.js)
 
 ## Results
 - HTML page result:
