@@ -1,5 +1,5 @@
 # UFOs
-- Create a webpage using using JavaScript, HTML and CSS. Refer to Refer to [index.html](../main/index.html)
+- Create a webpage using JavaScript, HTML and CSS. Refer to [index.html](../main/index.html)
 
 ## Challenge
 - Edit  [app.js](../main/app.js) to add filters and write an if-else statement.
